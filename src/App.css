@@ -1,9 +1,24 @@
 /* Add styling for your page here */
 
 .App {
-
+    Background-Color: lightpink;
 }
 
-.BakeryItem {
-  
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.bakedItem {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 75%;
+    Background-color: white;
+    }
+
+.outerFlex {
+    display:flex;
+    justify-content: space-around;
 }
